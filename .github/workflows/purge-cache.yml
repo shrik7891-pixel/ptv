@@ -1,0 +1,14 @@
+name: Purge jsDelivr Cache
+on:
+  push:
+    branches:
+      - main
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Purge Cache
+        run: |
+          curl -i https://purge.jsdelivr.net/gh/shrikdnim/ptv@main/userScript.js
+          curl -i https://purge.jsdelivr.net/gh/shrikdnim/ptv@main/tv_feed.json
+          curl -i https://purge.jsdelivr.net/gh/shrikdnim/ptv@main/topics.json
