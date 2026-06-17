@@ -9,6 +9,6 @@ jobs:
     steps:
       - name: Purge Cache
         run: |
-          curl -i https://purge.jsdelivr.net/gh/shrikdnim/ptv@main/userScript.js
-          curl -i https://purge.jsdelivr.net/gh/shrikdnim/ptv@main/tv_feed.json
-          curl -i https://purge.jsdelivr.net/gh/shrikdnim/ptv@main/topics.json
+          curl -i https://purge.jsdelivr.net/gh/shrik7891-pixel/ptv@main/userScript.js
+          curl -i https://purge.jsdelivr.net/gh/shrik7891-pixel/ptv@main/tv_feed.json
+          curl -i https://purge.jsdelivr.net/gh/shrik7891-pixel/ptv@main/topics.json
